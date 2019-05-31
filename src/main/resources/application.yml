@@ -1,0 +1,46 @@
+logging:
+  level:
+    .: error
+    org.springframework: ERROR
+    cn.sspu: ERROR
+
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "console"
+
+---
+
+spring:
+  datasource:
+    platform: h2
+  jpa:
+    show-sql: true
+
+---
+
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://moch-mysql-dev:3306/moch_dev?autoReconnect=true&failOverReadOnly=false&maxReconnects=10
+    username: moch_dev_user
+    password: sspumoch
+    platform: mysql
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+#    properties:
+#      javax:
+#        persistence:
+#          schema-generation:
+#            create-source: metadata
+#            scripts:
+#              action: create
+#              create-target: moch_database_create.sql
+
+---
+
+spring:
+  profiles: prod

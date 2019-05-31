@@ -1,0 +1,43 @@
+version: '3.7'
+
+services:
+  mysql-dev:
+    image: mysql:5.7
+    container_name: moch-mysql-dev
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    volumes:
+      - /host_mnt/d/DockerData/mochmysql:/var/lib/mysql
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: moch_dev
+      MYSQL_USER: moch_dev_user
+      MYSQL_PASSWORD: sspumoch
+      MYSQL_ROOT_PASSWORD: sspumoch2019
+    networks:
+      - sspu
+  sb-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sspu-moch-dev:latest
+    container_name: moch-sb-dev
+    expose:
+      - 8080
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysql-dev
+    environment:
+      DATABASE_HOST: mysql-dev
+      DATABASE_USER: moch_dev_user
+      DATABASE_PASSWORD: sspumoch
+      DATABASE_NAME: moch_dev
+      DATABASE_PORT: 3306
+      SPRING_PROFILES_ACTIVE: container
+    networks:
+      - sspu
+networks:
+  sspu:
