@@ -1,0 +1,11 @@
+#spring:
+#  profiles: dev
+#  jpa:
+#    properties:
+#      javax:
+#        persistence:
+#          schema-generation:
+#            create-source: metadata
+#            scripts:
+#              action: create
+#              create-target: moch_database_create.sql
