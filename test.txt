@@ -3,3 +3,5 @@ Some copyright text
 **/
 
 Adding changes before rebasing conflicts
+Neverending changes
+Ofcoure it will always change
