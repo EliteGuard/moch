@@ -1,5 +1,7 @@
 # Test project
 
+Test Git adn GitHub
+
 ## Introduction
 
 ## Purpose
