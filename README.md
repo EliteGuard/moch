@@ -1,6 +1,6 @@
 # Test project
 
-Test Git adn GitHub
+Test Git and GitHub
 
 ## Introduction
 
