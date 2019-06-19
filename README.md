@@ -16,7 +16,7 @@ How to deploy
 
 ## How to continue
 
-Adding a line for rebasing
+Adding a line for rebasing, more changes from myfeature branch too.
 Fork and issue pull request
 
 ### Copyright
