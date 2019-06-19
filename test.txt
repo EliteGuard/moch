@@ -3,5 +3,4 @@ Some copyright text
 **/
 
 New changes
-New changes again
 More changes
