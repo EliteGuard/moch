@@ -2,6 +2,5 @@
 Some copyright text
 **/
 
-Adding changes before rebasing conflicts
-Neverending changes
-Ofcoure it will always change
+New changes
+New changes again
