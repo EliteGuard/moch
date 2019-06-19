@@ -2,8 +2,7 @@
 Copyright text
 **/
 
-Stash example
-continuing
+Title
 
 New changes
 More changes
