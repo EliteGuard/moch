@@ -20,4 +20,4 @@ Adding a line for rebasing, more changes from myfeature branch too.
 Fork and issue pull request
 
 ### Copyright
-2019 Test
+2019 Test All rights...
