@@ -16,6 +16,7 @@ How to deploy
 
 ## How to continue
 
+Adding a line for rebasing
 Fork and issue pull request
 
 ### Copyright
