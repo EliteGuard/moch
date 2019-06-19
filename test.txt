@@ -2,3 +2,4 @@
 Some copyright text
 **/
 
+Adding changes before rebasing conflicts
