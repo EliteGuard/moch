@@ -1,1 +1,5 @@
+/**
+Some copyright text
+**/
+
 Testing branches
