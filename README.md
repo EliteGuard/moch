@@ -16,5 +16,7 @@ How to deploy
 
 ## How to continue
 
+Fork and issue pull request
+
 ### Copyright
 2019 Test
