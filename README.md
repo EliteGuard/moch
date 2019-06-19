@@ -8,6 +8,10 @@ This is example
 
 ## Purpose
 
+Training
+
 ## Deployment
+
+How to deploy
 
 ## How to continue
