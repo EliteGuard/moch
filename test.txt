@@ -2,7 +2,7 @@
 Copyright text
 **/
 
-Title
+Title for tagging compare example
 
 New changes
 More changes
