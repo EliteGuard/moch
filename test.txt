@@ -2,4 +2,3 @@
 Some copyright text
 **/
 
-Never stopped testing
