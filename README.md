@@ -15,3 +15,6 @@ Training
 How to deploy
 
 ## How to continue
+
+### Copyright
+2019 Test
