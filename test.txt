@@ -1,5 +1,5 @@
 /**
-Some copyright text
+Copyright text
 **/
 
 New changes
